@@ -26,29 +26,29 @@ sudo dpkg -i virtualbox-7.0_7.0.4-154605~Ubuntu~jammy_amd64.deb
 
 首先，点击 `新建` 按钮，如下图：
 
-![jietu](./images/截图 2022-12-07 23-59-15.png)
+![jietu](./images/1.png)
 
 接着，按如下图填写信息：
 
-![jietu](./images/截图 2022-12-08 00-03-12.png)
+![jietu](./images/2.png)
 
 其中，Name是你要给虚拟机起的名字(我取名为CentOS7-x64，见名知义)，Folder是你要将虚拟机安装到哪个目录下(这里我安装到用户主目录下的VirtualBox-VMs文件夹中，方便查找和管理)，ISO Image是选择操作系统的镜像文件(链接: https://pan.baidu.com/s/1mzVqoWuuSSj9oEtGDzRcBQ 提取码: v9ae)，把Skip Unattended Installation的勾选上(手动安装客户端操作系统)，点击Next.
 
 接着，为虚拟机分配内存和处理器，如下图：
 
-![jietu](./images/截图 2022-12-08 09-19-45.png)
+![jietu](./images/3.png)
 
 默认即可(2G内存，1个CPU)，点击Next.
 
 再接着，为虚拟机分配硬盘空间，如下图：
 
-![jietu](./images/截图 2022-12-08 09-30-32.png)
+![jietu](./images/4.png)
 
 默认即可(20G磁盘空间)，不要勾选Pre-allocate Full Size，否则会一次性失去20G的磁盘空间，点击Next.
 
 如下图：
 
-![jietu](./images/截图 2022-12-08 09-33-53.png)
+![jietu](./images/5.png)
 
 从摘要中可以看到虚拟机的操作系统、内存、处理器、磁盘等信息，最后点击Finish.
 
@@ -60,7 +60,7 @@ sudo dpkg -i virtualbox-7.0_7.0.4-154605~Ubuntu~jammy_amd64.deb
 
 上一步骤完成后，只是新建了虚拟机，并没有完成安装过程，右键选中该虚拟机，选择正常启动，如下图：
 
-![jietu](./images/截图 2022-12-08 09-51-44.png)
+![jietu](./images/6.png)
 
 默认选中Install CentOS 7，按下enter键，如下图：
 
@@ -98,7 +98,7 @@ sudo dpkg -i virtualbox-7.0_7.0.4-154605~Ubuntu~jammy_amd64.deb
 
 `系统-启动顺序` 选择硬盘(从硬盘启动)，`网络-网卡1` 选择桥接网络(与物理主机处于同一网络下).
 
-![jietu](./images/截图 2022-12-08 11-08-19.png)
+![jietu](./images/7.png)
 
 至此，网络和启动配置完成.
 
