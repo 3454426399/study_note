@@ -20,6 +20,29 @@ sudo dpkg -i virtualbox-7.0_7.0.4-154605~Ubuntu~jammy_amd64.deb
 
 ![jietu](./images/VirtualBox.png)
 
+如果安装过程中报了 `executing /sbin/vboxconfig as root` 的错误，首先需要设置 `BIOS` 的 `Secure Boot` 为 `disable` ，然后依次执行如下命令(参考链接：https://blog.csdn.net/weixin_39817215/article/details/116653935)：
+
+```shell
+sudo apt update && sudo apt upgrade
+```
+
+```shell
+sudo apt install gdebi build-essential
+```
+
+```shell
+sudo dpkg -i virtualbox-7.0_7.0.4-154605~Ubuntu~jammy_amd64.deb
+```
+
+```shell
+# 如果没有提示缺少依赖，则执行到上一步骤就可以了.
+sudo apt --fix-broken install
+```
+
+```shell
+sudo dpkg -i virtualbox-7.0_7.0.4-154605~Ubuntu~jammy_amd64.deb
+```
+
 
 
 ## 通过VirtualBox新建虚拟机
