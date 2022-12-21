@@ -2,7 +2,9 @@
 
 Linux，全称是 `Linux is not unix` ，即Linux不是Unix.
 
-Unix是一个极具意义的操作系统，最开始一直开源免费，广泛应用于服务器，直到Unix Version 7版本，Unix不再开源且收费，为此，Andrew S. Tanenbaum写了一个迷你版的Unix操作系统，名为Minix(mini-Unix)，而Linus Benedict Torvalds这个天才程序员又在Minix的基础上写了跨时代意义的第一个Linux操作系统GNU/Linux，之所以称为GNU，是因为该操作系统上使用了原先在Unix系统上的GNU工具集.
+Unix是一个极具意义的操作系统，最开始一直开源免费，广泛应用于服务器，直到Unix Version 7版本，Unix不再开源且收费，为此，Andrew S. Tanenbaum写了一个迷你版的Unix操作系统，名为Minix(mini-Unix)，而Linus Benedict Torvalds(林纳斯)这个天才程序员又在Minix的基础上写了跨时代意义的第一个Linux操作系统GNU/Linux，之所以称为GNU，是因为该操作系统上使用了原先在Unix系统上的GNU工具集.
+
+Linux操作系统是一个多用户、多任务、支持多线程和多CPU、支持32位和64位硬件的操作系统，以网络为核心，它极具跨时代意义，所有Linux发行版本以及Android都是基于它诞生的.
 
 Linux与Unix系统的区别：
 
